@@ -1,0 +1,473 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3491989900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the techfios login Page",
+            "match": {
+              "location": "StepDefinition.User_is_on_the_techfios_login_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2399726600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.beforeRun()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Login different way",
+        "description": "",
+        "id": "validate-login;login-different-way;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1440142400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 321606200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters \"demo@techfios.com\" and \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 13
+                },
+                {
+                  "val": "abc123",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinition.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6300492300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on signin button",
+            "match": {
+              "location": "StepDefinition.user_click_on_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11308800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should be able to land on Dashboard Page",
+            "match": {
+              "location": "StepDefinition.user_should_be_able_to_land_on_Dashboard_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@Scenario1"
+          },
+          {
+            "line": 1,
+            "name": "@OtherLogin"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3556056700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the techfios login Page",
+            "match": {
+              "location": "StepDefinition.User_is_on_the_techfios_login_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1362121300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.beforeRun()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Login different way",
+        "description": "",
+        "id": "validate-login;login-different-way;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 708302700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 280166900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters \"demo1@techfios.com\" and \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo1@techfios.com",
+                  "offset": 13
+                },
+                {
+                  "val": "abc123",
+                  "offset": 38
+                }
+              ],
+              "location": "StepDefinition.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5936633800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on signin button",
+            "match": {
+              "location": "StepDefinition.user_click_on_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19254600,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Dashboard]- iBilling\u003e but was:\u003c[Login ]- iBilling\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat steps.StepDefinition.user_should_be_able_to_land_on_Dashboard_Page(StepDefinition.java:76)\r\n\tat ✽.Then User should be able to land on Dashboard Page(features/OtherLogin.feature:11)\r\n",
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "User should be able to land on Dashboard Page",
+            "match": {
+              "location": "StepDefinition.user_should_be_able_to_land_on_Dashboard_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@Scenario1"
+          },
+          {
+            "line": 1,
+            "name": "@OtherLogin"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3509484400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the techfios login Page",
+            "match": {
+              "location": "StepDefinition.User_is_on_the_techfios_login_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1402616000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.beforeRun()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Login different way",
+        "description": "",
+        "id": "validate-login;login-different-way;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 675402000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 293224600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters \"demo@techfios.com\" and \"abc124\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 13
+                },
+                {
+                  "val": "abc124",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinition.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5926862600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on signin button",
+            "match": {
+              "location": "StepDefinition.user_click_on_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9109000,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Dashboard]- iBilling\u003e but was:\u003c[Login ]- iBilling\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat steps.StepDefinition.user_should_be_able_to_land_on_Dashboard_Page(StepDefinition.java:76)\r\n\tat ✽.Then User should be able to land on Dashboard Page(features/OtherLogin.feature:11)\r\n",
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "User should be able to land on Dashboard Page",
+            "match": {
+              "location": "StepDefinition.user_should_be_able_to_land_on_Dashboard_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@Scenario1"
+          },
+          {
+            "line": 1,
+            "name": "@OtherLogin"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3411933800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the techfios login Page",
+            "match": {
+              "location": "StepDefinition.User_is_on_the_techfios_login_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1439172200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.beforeRun()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Login different way",
+        "description": "",
+        "id": "validate-login;login-different-way;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 688815200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 275785700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters \"demo1@techfios.com\" and \"abc124\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo1@techfios.com",
+                  "offset": 13
+                },
+                {
+                  "val": "abc124",
+                  "offset": 38
+                }
+              ],
+              "location": "StepDefinition.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6005971900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on signin button",
+            "match": {
+              "location": "StepDefinition.user_click_on_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11576900,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Dashboard]- iBilling\u003e but was:\u003c[Login ]- iBilling\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat steps.StepDefinition.user_should_be_able_to_land_on_Dashboard_Page(StepDefinition.java:76)\r\n\tat ✽.Then User should be able to land on Dashboard Page(features/OtherLogin.feature:11)\r\n",
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "User should be able to land on Dashboard Page",
+            "match": {
+              "location": "StepDefinition.user_should_be_able_to_land_on_Dashboard_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@Scenario1"
+          },
+          {
+            "line": 1,
+            "name": "@OtherLogin"
+          }
+        ]
+      }
+    ],
+    "name": "Validate Login",
+    "description": "",
+    "id": "validate-login",
+    "keyword": "Feature",
+    "uri": "features/OtherLogin.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@OtherLogin"
+      }
+    ]
+  }
+]
